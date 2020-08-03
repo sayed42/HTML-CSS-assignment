@@ -1,0 +1,100 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+} 
+    .card {
+      display: inline-block;
+    }
+
+body > div  {
+    border: 2px solid black ;
+}
+
+div .container{
+    margin: 10px 5px;
+    border-radius: 5px;
+    display : inline-block;
+    background-color: rgba(172, 170, 170, 0.287);
+}
+
+
+div .boxes input{ 
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+div .boxes .class-btn{
+    border: 1px solid;
+    margin: 10px;
+    
+}
+
+.navbar-header{
+    border: 1px solid red;
+    background-color: rgb(47, 175, 235);
+    opacity: .8;
+    
+}
+
+#fa-home{
+    padding: 5px;
+    background-color: rgb(10, 140, 200);
+    color: white;
+    font-size: 28px;
+    margin:10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    
+}
+
+
+#fa-bars{
+    
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -22px;
+    background-color: rgb(10, 140, 200);
+    color: white; 
+    height: 50px;
+    width: 80px;
+    text-align: justify;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+
+
+.p-holder{
+    display: inline-block;
+    position: absolute;
+    margin-left: 60px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.nav-placeholder{
+    padding: 10px;
+    background-color: rgb(10,140,200);
+    border: 1px solid rgb(10, 140, 200);
+}
+
+
+.Tralala{
+    display: inline-block;
+    position: absolute;
+    
+    margin-left: 500px;
+    height: 60px;
+    width: 80px;
+
+}
+
+.Tralala p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
